@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'source-code';
+    src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+
+html{
+    --green-off: #C0D530;
+    --ultramarine-blue: #0437F2;
+    font-family: 'source-code';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--ultramarine-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    position: absolute;
+    z-index: 0;
+    color: whitesmoke;
+    letter-spacing: -1.5px;
+    font-size: 70px;
+}
+
+h1:hover{
+    background-color: whitesmoke;
+    color: var(--ultramarine-blue);
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+#typeout{
+    position: absolute;
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+    top: 0;
+    left: 0;
+    right: 0; 
+    max-width: 100%; 
+    font-size: 18px;
+    line-height: 1em; 
+    color: var(--ultramarine-blue);
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.typeout-body{
+    background: whitesmoke;
+    color: var(--ultramarine-blue);
+}
+
+  
